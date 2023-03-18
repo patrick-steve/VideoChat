@@ -1,0 +1,25 @@
+.cam-body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cam {
+    border: 1px solid white;
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.cam.remote {
+    margin-left: 150px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 20%;
+}
