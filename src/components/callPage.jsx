@@ -118,6 +118,7 @@ const CallPage = props => {
 
             const callData = (await callDoc.get()).data();
 
+
             const offerDescription = callData.offer;
             await pc.setRemoteDescription(
                 new RTCSessionDescription(offerDescription)
